@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Blog del Real Madrid</title>
+        <link>https://yarelete.github.io/webrssyarelete/</link>
+        <description>Últimas noticias y análisis sobre el Real Madrid</description>
+        <language>es</language>
+
+        <item>
+            <title>Análisis del último partido</title>
+            <link></link>
+            <description>Un análisis detallado del último encuentro del Real Madrid.</description>
+            <pubDate>Wed, 13 Mar 2025 10:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Fichajes recientes</title>
+            <link>https://tusitio.com/blog/posts/post2.html</link>
+            <description>Información sobre los últimos fichajes del Real Madrid.</description>
+            <pubDate>Tue, 12 Mar 2025 14:30:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Historia del club</title>
+            <link>https://tusitio.com/blog/posts/post1.html</link>
+            <description>Un recorrido por la historia del Real Madrid y sus logros.</description>
+            <pubDate>Mon, 11 Mar 2025 09:15:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

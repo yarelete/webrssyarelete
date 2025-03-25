@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast sobre Desarrollo Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Fuentes */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Encabezado */
+        header {
+            background: #002F6C;
+            color: white;
+            padding: 30px 20px;
+            font-size: 2rem;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 3px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Navegación */
+        nav {
+            background: #ffffff;
+            padding: 15px 0;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #002F6C;
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #F7B81B;
+            transform: scale(1.1);
+        }
+
+        /* Contenido principal */
+        main {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 40px auto;
+            background: #ffffff;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+
+        main h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #002F6C;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            color: #555;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        /* Audio */
+        audio {
+            display: block;
+            margin: 10px auto;
+            width: 100%;
+        }
+
+        /* Pie de página */
+        footer {
+            background: #002F6C;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            width: 100%;
+        }
+
+        footer a {
+            color: #F7B81B;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Podcast sobre Desarrollo Web</header>
+
+    <nav>
+        <ul>
+            <li><a href="/blog/index.html">Blog</a></li>
+            <li><a href="/index.html">Inicio</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <p>Explora los últimos episodios sobre tecnologías web, frameworks y mejores prácticas.</p>
+
+        <section>
+            <h2>Episodio 1: Himno del Real Madrid</h2>
+            <p>El mejor himno de la historia.</p>
+            <audio controls>
+                <source src="/podcast/audios/Himno_Real_Madrid-Jose_de_Aguilar.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </section>
+
+        <section>
+            <h2>Episodio 2: Lazy song</h2>
+            <p>Si quieres sentirte aliviado mientras estás en una clase de base de datos, ponte este tema.</p>
+            <audio controls>
+                <source src="/podcast/audios/Bruno_Mars-_The_Lazy_Song.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </section>
+
+        <section>
+            <h2>Episodio 3: Mundial 2010</h2>
+            <p>Gracias a esta canción ganamos el mundial.</p>
+            <audio controls>
+                <source src="/podcast/audios/Mikel_Telo_Ai_se_eu_te_pego.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Podcast Desarrollo Web | <a href="#">Términos y Condiciones</a> | <a href="#">Política de Privacidad</a></p>
+    </footer>
+
+</body>
+</html>

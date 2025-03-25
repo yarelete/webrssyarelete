@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Suscripciones Real Madrid</title>
+    </head>
+    <body>
+        <outline text="Blog del Real Madrid" type="rss" xmlUrl="https://tusitio.com/feed/rss.xml"/>
+        <outline text="Podcast del Real Madrid" type="rss" xmlUrl="https://tusitio.com/feed/podcast.xml"/>
+    </body>
+</opml>
